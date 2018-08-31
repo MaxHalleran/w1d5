@@ -4,11 +4,14 @@
   "description": "Creating a file for a project using npm",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "Max",
   "license": "ISC",
   "dependencies": {
     "chalk": "^2.4.1"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
   }
 }
